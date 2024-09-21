@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Screenshot Extension2",
+  "version": "1.0",
+  "permissions": [ 
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["cropper.min.js", "libs/cropper.min.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+  
+  
+  
